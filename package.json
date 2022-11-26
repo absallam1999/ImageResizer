@@ -1,0 +1,44 @@
+{
+  "name": "images-resizing",
+  "version": "1.0.0",
+  "description": "Resizing Images By Node Js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "lint": "npx eslint ./src",
+    "prettier": "npx prettier --write .",
+    "build": "npx tsc && node dist/index.js",
+    "jasmine": "jasmine",
+    "test": "npx tsc && npm run jasmine"
+  },
+  "keywords": [
+    "Nodejs",
+    "Typescript",
+    "Images",
+    "Resizing"
+  ],
+  "author": "Mohamed Abd Elsallam Badr",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/jasmine": "^4.3.0",
+    "@types/node": "^18.11.5",
+    "@types/sharp": "^0.31.0",
+    "@types/supertest": "^2.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jasmine": "^4.4.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "supertest": "^6.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sharp": "^0.31.1"
+  }
+}
