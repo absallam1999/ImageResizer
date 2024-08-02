@@ -1,5 +1,5 @@
 # Image Resize
-## First Project For (Advanced Full stack Web Development) Image Resizing by Nodejs on @Udacity
+## First Project For (Advanced Full stack Web Development) Image Resizing by Nodejs on [@Udacity](udacity.com).
 
 ### * image resizing @1.0.0
 
