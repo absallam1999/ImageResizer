@@ -14,4 +14,4 @@
          http://localhost:3000/api/images/?filename=(imagename)&width=(anywidth)&height=(anyheight)
 
 
-# Created By: [Absallam](https://gitub.com/absallam199)
+# Created By: [Absallam](https://gitub.com/absallam199).
