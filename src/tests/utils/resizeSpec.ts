@@ -1,4 +1,4 @@
-import resizeImage from '../../router/utils/resize'
+import resizeImage from './../../handler/utils/resize'
 
 describe('Test Resize Image', () => {
   it('Should Get The Image in output Folder', async () => {
